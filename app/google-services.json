@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334750268337",
+    "project_id": "areasaver-9ea9f",
+    "storage_bucket": "areasaver-9ea9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334750268337:android:78a0a76d01033d0d4c9b90",
+        "android_client_info": {
+          "package_name": "com.example.maptest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHbBovFx2k-k3aMQTKbSdaBQQI71u07UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
