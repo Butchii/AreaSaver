@@ -100,13 +100,13 @@ class MainActivity : AppCompatActivity() {
     fun addAreasToMap() {
         for (area: Area in areaList) {
             val newArea = Polygon(map)
-            for (gPoint: HashMap<String,String> in area.geoPointsToConvert) {
+            for (gPoint: HashMap<String, String> in area.geoPointsToConvert) {
                 val latitude = gPoint["latitude"].toString().toDouble()
                 val longitude = gPoint["longitude"].toString().toDouble()
                 newArea.addPoint(GeoPoint(latitude, longitude))
             }
+            Utility.setAreaColor(area.type, newArea, applicationContext)
 
-            newArea.fillColor = R.color.black
             map.overlays.add(newArea)
         }
         Log.d("myTag", areaList.toString())
